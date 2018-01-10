@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Báo Online</string>
+    <string-array name="title_bao_vnnet">
+        <item>Trang chủ</item>
+        <item>Pháp luật</item>
+        <item>Công nghệ</item>
+        <item>Kinh doanh</item>
+        <item>Giáo dục</item>
+        <item>Thời sự</item>
+        <item>Giải trí</item>
+        <item>Sức khỏe</item>
+        <item>Thể thao</item>
+        <item>Đời sống</item>
+        <item>Thế giới</item>
+        <item>Bất động sản</item>
+        <item>Bạn đọc</item>
+        <item>Tin mới nóng</item>
+        <item>Tin nổi bật</item>
+        <item>Tuần Việt Nam</item>
+        <item>Góc nhìn thẳng</item>
+    </string-array>
+    <string-array name="title_bao_vnex">
+        <item>Trang chủ</item>
+        <item>Thời sự</item>
+        <item>Thế giới</item>
+        <item>Kinh doanh</item>
+        <item>Startup</item>
+        <item>Giải trí</item>
+        <item>Thể thao</item>
+        <item>Pháp luật</item>
+        <item>Giáo dục</item>
+        <item>Sức khỏe</item>
+        <item>Gia đình</item>
+        <item>Du lịch</item>
+        <item>Khoa học</item>
+        <item>Số hóa</item>
+        <item>Xe</item>
+        <item>Cộng đồng</item>
+        <item>Tâm sự</item>
+        <item>Cười</item>
+    </string-array>
+    <string-array name="title_bao_dantri">
+        <item>Trang chủ</item>
+        <item>Sức khỏe</item>
+        <item>Xã hội</item>
+        <item>Giải trí</item>
+        <item>Giáo dục-Khuyến học</item>
+        <item>Thể thao</item>
+        <item>Thế giới</item>
+        <item>Đào tạo</item>
+    </string-array>
+    <string-array name="url_bao_vnnet">
+        <item>http://vietnamnet.vn/rss/home.rss</item>
+        <item>http://vietnamnet.vn/rss/phap-luat.rss</item>
+        <item>http://vietnamnet.vn/rss/cong-nghe.rss</item>
+        <item>http://vietnamnet.vn/rss/kinh-doanh.rss</item>
+        <item>http://vietnamnet.vn/rss/giao-duc.rss</item>
+        <item>http://vietnamnet.vn/rss/thoi-su.rss</item>
+        <item>http://vietnamnet.vn/rss/giai-tri.rss</item>
+        <item>http://vietnamnet.vn/rss/suc-khoe.rss</item>
+        <item>http://vietnamnet.vn/rss/the-thao.rss</item>
+        <item>http://vietnamnet.vn/rss/doi-song.rss</item>
+        <item>http://vietnamnet.vn/rss/the-gioi.rss</item>
+        <item>http://vietnamnet.vn/rss/bat-dong-san.rss</item>
+        <item>http://vietnamnet.vn/rss/ban-doc.rss</item>
+        <item>http://vietnamnet.vn/rss/tin-moi-nong.rss</item>
+        <item>http://vietnamnet.vn/rss/tin-noi-bat.rss</item>
+        <item>http://vietnamnet.vn/rss/tuanvietnam.rss</item>
+        <item>http://vietnamnet.vn/rss/goc-nhin-thang.rss</item>
+    </string-array>
+    <string-array name="url_bao_vnex">
+        <item>https://vnexpress.net/rss/tin-moi-nhat.rss</item>
+        <item>https://vnexpress.net/rss/thoi-su.rss</item>
+        <item>https://vnexpress.net/rss/the-gioi.rss</item>
+        <item>https://vnexpress.net/rss/kinh-doanh.rss</item>
+        <item>https://vnexpress.net/rss/startup.rss</item>
+        <item>https://vnexpress.net/rss/giai-tri.rss</item>
+        <item>https://vnexpress.net/rss/the-thao.rss</item>
+        <item>https://vnexpress.net/rss/phap-luat.rss</item>
+        <item>https://vnexpress.net/rss/giao-duc.rss</item>
+        <item>https://vnexpress.net/rss/suc-khoe.rss</item>
+        <item>https://vnexpress.net/rss/gia-dinh.rss</item>
+        <item>https://vnexpress.net/rss/du-lich.rss</item>
+        <item>https://vnexpress.net/rss/khoa-hoc.rss</item>
+        <item>https://vnexpress.net/rss/so-hoa.rss</item>
+        <item>https://vnexpress.net/rss/oto-xe-may.rss</item>
+        <item>https://vnexpress.net/rss/cong-dong.rss</item>
+        <item>https://vnexpress.net/rss/tam-su.rss</item>
+        <item>https://vnexpress.net/rss/cuoi.rss</item>
+    </string-array>
+    <string-array name="url_bao_dantri">
+        <item>http://dantri.com.vn/trangchu.rss</item>
+        <item>http://dantri.com.vn/suc-khoe.rss</item>
+        <item>http://dantri.com.vn/xa-hoi.rss</item>
+        <item>http://dantri.com.vn/giai-tri.rss</item>
+        <item>http://dantri.com.vn/giao-duc-khuyen-hoc.rss</item>
+        <item>http://dantri.com.vn/the-thao.rss</item>
+        <item>http://dantri.com.vn/the-gioi.rss</item>
+        <item>http://dantri.com.vn/viec-lam/dao-tao.rss</item>
+    </string-array>
+</resources>
+
