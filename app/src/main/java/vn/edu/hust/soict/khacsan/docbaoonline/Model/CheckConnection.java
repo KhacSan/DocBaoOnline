@@ -10,10 +10,10 @@ import android.net.NetworkInfo;
 
 public class CheckConnection {
     public static boolean internetConnectionCheck(Context context) {
+        if(context == null) return false;
         Boolean haveConnectedWifi = false;
         Boolean haveConnectedMobile = false;
         ConnectivityManager cm = (ConnectivityManager)  context.getSystemService(Context.CONNECTIVITY_SERVICE);
-
         NetworkInfo[] info = cm.getAllNetworkInfo();
 
         for (NetworkInfo in : info) {

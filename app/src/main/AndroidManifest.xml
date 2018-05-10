@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".View.WebViewActivity" android:theme="@style/MyTheme"/>
+        <activity android:name=".View.WebViewActivity" android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

@@ -62,7 +62,18 @@ public class LoaiBaoAdapter extends BaseAdapter {
                 .error(R.drawable.imageerror)
                 .into(holder.imageViewIcon);
         holder.textViewTenBao.setText(loaiBao.getTenBao());
+        if(loaiBao.isSelected()){
+            convertView.setBackgroundColor(context.getResources().getColor(R.color.colorPrimary));
+        }else  convertView.setBackgroundColor(context.getResources().getColor(android.R.color.darker_gray));
         return convertView;
+    }
+
+    public void setSelect(int pos){
+        for(int i = 0; i < baos.size() ; i++){
+            if(i == pos) baos.get(i).setSelected(true);
+            else baos.get(i).setSelected(false);
+            notifyDataSetChanged();
+        }
     }
 
     private class viewHolder{

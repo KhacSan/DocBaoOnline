@@ -11,6 +11,5 @@ import vn.edu.hust.soict.khacsan.docbaoonline.Model.TinTuc;
 
 public interface MainView {
     void LoadLoaiBao(LoaiBaoAdapter adapter);
-    void LoadTinTuc(ArrayList<TinTuc> tinTucs,int loaiBao, int postion);
     void LoadFaiLure(int errorCode);
 }

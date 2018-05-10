@@ -27,17 +27,6 @@ public class FragmentAdapter extends FragmentStatePagerAdapter {
     }
 
     @Override
-    public int getItemPosition(Object object) {
-        if (object.getClass().isAssignableFrom(Fragment.class)) {
-            /** cast object to fragment */
-            Fragment customFragment = (Fragment)object;
-            /** return fragment position from our list */
-            return fragments.indexOf(customFragment);
-        } else
-        return POSITION_NONE;
-    }
-
-    @Override
     public int getCount() {
         return fragments.size();
     }

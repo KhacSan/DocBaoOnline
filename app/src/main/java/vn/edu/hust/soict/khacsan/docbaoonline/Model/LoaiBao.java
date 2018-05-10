@@ -6,6 +6,15 @@ package vn.edu.hust.soict.khacsan.docbaoonline.Model;
 
 public class LoaiBao {
     private String tenBao, icon;
+    private boolean isSelected = false;
+
+    public boolean isSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(boolean selected) {
+        isSelected = selected;
+    }
 
     public LoaiBao(String tenBao, String icon) {
         this.tenBao = tenBao;
